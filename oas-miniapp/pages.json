@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "path": "pages/leave-record",
+      "style": {}
+    },
+    {
+      "path": "pages/login",
+      "style": {}
+    },
+    {
+      "path": "pages/profile",
+      "style": {}
+    },
+    {
+      "path": "pages/password",
+      "style": {}
+    },
+    {
+      "path": "pages/notice",
+      "style": {}
+    },
+    {
+      "path": "pages/notice-detail",
+      "style": {}
+    }
+  ],
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "list": [
+      {
+        "pagePath": "pages/leave-record",
+        "text": "首页",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png"
+      },
+      {
+        "pagePath": "pages/notice",
+        "text": "通知",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png"
+      },
+      {
+        "pagePath": "pages/profile",
+        "text": "我的",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarHidden": true,
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}
